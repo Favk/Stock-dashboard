@@ -1,72 +1,118 @@
-# Stock-dashboard
-ValueGlance Coding Assessment
-# Getting Started with Create React App
+# 📈 Stock Dashboard (ValueGlance Coding Assessment)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive stock price dashboard built with **React** that displays real-time stock data, supports searching and sorting, and combines a predefined stock set with user-added symbols.
 
-## Available Scripts
+🔗 **Live Demo:**  
+[https://stock-dashboard.vercel.app](https://stock-dashboard-gold-six.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧠 Problem Overview
+
+This project was built as part of the **ValueGlance Coding Assessment**.  
+The objective was to design and implement a clean, user-friendly stock dashboard that fetches live market data and presents it in a structured, interactive format.
+
+---
+
+## ✨ Features
+
+- 📊 **Stock Table**
+  - Stock Symbol
+  - Current Price
+  - Percentage Change
+
+- 🔍 **Search & Add Stocks**
+  - Users can search for stock symbols
+  - Press **Enter** or click **Add** to fetch stock data
+  - User-added stocks are merged with a predefined stock list
+
+- ↕️ **Sorting**
+  - Sort stocks by:
+    - Price
+    - Percentage Change
+
+- ⏳ **Loading & Error States**
+  - Displays loading indicators during API calls
+  - Handles API errors gracefully
+
+- 📱 **Responsive Layout**
+  - Optimized for desktop and mobile screens
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Create React App)
+- **Language:** JavaScript
+- **Styling:** Tailwind CSS
+- **Stock API:** Finnhub
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Favk/Stock-dashboard.git
+cd Stock-dashboard
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Environment Variables
+
+Create a .env file in the project root:
+```bash
+REACT_APP_API_KEY=your_api_key_here
+```
+# ⚠️ API keys are not committed to GitHub.
+
+### 4️⃣ Run the application
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📦 Build for Production
+`npm run build`
+### Creates an optimized production build in the build/ directory.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🌍 Deployment
 
-### `npm run build`
+This project is deployed using Vercel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deployment configuration:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Build Command: `npm run build`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Output Directory: `build`
 
-### `npm run eject`
+Environment variables are configured in the Vercel dashboard.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📌 Design Decisions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- A predefined stock list ensures immediate usability
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- User-added stocks improve flexibility and interactivity
 
-## Learn More
+- Client-side sorting minimizes unnecessary API calls
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Tailwind CSS enables fast styling and responsive design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🔮 Future Improvements
 
-### Code Splitting
+- Persist watchlist using localStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Pagination or virtualization for large stock lists
 
-### Analyzing the Bundle Size
+- Unit tests for data fetching and sorting logic
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Dark mode support
