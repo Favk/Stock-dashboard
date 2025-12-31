@@ -71,29 +71,65 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+# 📈 Stock Dashboard (ValueGlance Coding Assessment)
 
-📌 Design Decisions
+A responsive stock price dashboard built with **React** that displays real-time stock data, supports searching and sorting, and combines a predefined stock set with user-added symbols.
 
-Predefined + user-added stock list ensures the dashboard is useful immediately while still being interactive
+🔗 **Live Demo:**  
+https://your-vercel-link.vercel.app
 
-Sorting on the client avoids unnecessary API calls
+---
 
-Mini charts provide quick trend insight without overwhelming the UI
+## 🧠 Problem Overview
 
-Tailwind CSS enables rapid styling and responsive layouts
+This project was built as part of the **ValueGlance Coding Assessment**.  
+The objective was to design and implement a clean, user-friendly stock dashboard that fetches live market data and presents it in a structured, interactive format.
 
-🔮 Future Improvements
+---
 
-Pagination or virtualized tables for large datasets
+## ✨ Features
 
-Watchlist persistence using localStorage
+- 📊 **Stock Table**
+  - Stock Symbol
+  - Current Price
+  - Percentage Change
 
-Unit tests for data fetching and sorting logic
+- 🔍 **Search & Add Stocks**
+  - Users can search for stock symbols
+  - Press **Enter** or click **Add** to fetch stock data
+  - User-added stocks are merged with a predefined stock list
 
-Dark mode toggle
+- ↕️ **Sorting**
+  - Sort stocks by:
+    - Price
+    - Percentage Change
 
-👩🏽‍💻 Author
+- 📉 **Mini Charts (Sparklines)**
+  - Each stock includes a small trend chart for quick visual insight
 
-Favour Kolade
-Software Engineer | Security-focused Developer
-🔗 LinkedIn: https://www.linkedin.com/in/favour-kolade/
+- ⏳ **Loading & Error States**
+  - Displays loading indicators during API calls
+  - Handles API errors gracefully
+
+- 📱 **Responsive Layout**
+  - Optimized for desktop and mobile screens
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Create React App)
+- **Language:** JavaScript
+- **Styling:** Tailwind CSS
+- **Charts:** Chart.js
+- **Stock API:** Alpha Vantage / Finnhub
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Favk/Stock-dashboard.git
+cd Stock-dashboard
