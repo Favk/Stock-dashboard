@@ -163,9 +163,6 @@ function App() {
                   >
                     {stock.changePercent.toFixed(2)}%
                   </td>
-                  <td className="p-3">
-                    <MiniChart prices={stock.history} />
-                  </td>
                 </tr>
               ))}
             </tbody>
