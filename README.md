@@ -3,7 +3,7 @@
 A responsive stock price dashboard built with **React** that displays real-time stock data, supports searching and sorting, and combines a predefined stock set with user-added symbols.
 
 🔗 **Live Demo:**  
-[https://your-vercel-link.vercel.app](https://stock-dashboard-gold-six.vercel.app/)
+[https://stock-dashboard.vercel.app](https://stock-dashboard-gold-six.vercel.app/)
 
 ---
 
@@ -45,8 +45,7 @@ The objective was to design and implement a clean, user-friendly stock dashboard
 - **Frontend:** React (Create React App)
 - **Language:** JavaScript
 - **Styling:** Tailwind CSS
-- **Charts:** Chart.js
-- **Stock API:** Alpha Vantage / Finnhub
+- **Stock API:** Finnhub
 - **Deployment:** Vercel
 
 ---
@@ -90,9 +89,9 @@ This project is deployed using Vercel.
 
 Deployment configuration:
 
-Build Command: `npm run build`
+- Build Command: `npm run build`
 
-Output Directory: `build`
+- Output Directory: `build`
 
 Environment variables are configured in the Vercel dashboard.
 
@@ -100,20 +99,20 @@ Environment variables are configured in the Vercel dashboard.
 
 ### 📌 Design Decisions
 
-A predefined stock list ensures immediate usability
+- A predefined stock list ensures immediate usability
 
-User-added stocks improve flexibility and interactivity
+- User-added stocks improve flexibility and interactivity
 
-Client-side sorting minimizes unnecessary API calls
+- Client-side sorting minimizes unnecessary API calls
 
-Tailwind CSS enables fast styling and responsive design
+- Tailwind CSS enables fast styling and responsive design
 
 ### 🔮 Future Improvements
 
-Persist watchlist using localStorage
+- Persist watchlist using localStorage
 
-Pagination or virtualization for large stock lists
+- Pagination or virtualization for large stock lists
 
-Unit tests for data fetching and sorting logic
+- Unit tests for data fetching and sorting logic
 
-Dark mode support
+- Dark mode support
