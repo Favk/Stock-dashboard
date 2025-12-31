@@ -70,3 +70,151 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+📈 Stock Dashboard (ValueGlance Coding Assessment)
+
+A responsive stock price dashboard built with React that displays real-time stock data, supports searching and sorting, and combines a predefined stock set with user-added symbols.
+
+🔗 Live Demo:
+👉 https://your-vercel-link.vercel.app
+
+(replace with your actual deployed URL)
+
+🧠 Problem Overview
+
+This project was built as part of the ValueGlance Coding Assessment.
+The goal was to create a simple, clean stock dashboard that:
+
+Fetches stock price data from a public API
+
+Displays data in a table
+
+Uses modern frontend practices
+
+Handles real-world UX concerns (loading, errors, searching, sorting)
+
+✨ Features
+
+📊 Stock Table
+
+Symbol
+
+Current Price
+
+Percentage Change
+
+🔍 Search & Add Stocks
+
+Search for a stock symbol
+
+Press Enter or click Add to fetch and display it
+
+User-added stocks are merged with a predefined stock list
+
+↕️ Sorting
+
+Sort stocks by:
+
+Price
+
+Percentage change
+
+📉 Mini Charts (Sparklines)
+
+Each stock displays a small trend chart for quick visual insight
+
+⏳ Loading & Error States
+
+Graceful handling of API delays and failures
+
+📱 Responsive Design
+
+Works on desktop and mobile screens
+
+🛠️ Tech Stack
+
+Frontend: React (Create React App)
+
+Language: JavaScript
+
+Styling: Tailwind CSS
+
+Charts: Chart.js (sparklines)
+
+API: Alpha Vantage / Finnhub (free stock API)
+
+Deployment: Vercel
+
+🚀 Getting Started (Local Setup)
+1️⃣ Clone the repository
+git clone https://github.com/Favk/Stock-dashboard.git
+cd Stock-dashboard
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Set up environment variables
+
+Create a .env file in the root:
+
+REACT_APP_API_KEY=your_api_key_here
+
+
+⚠️ API keys are not committed to GitHub.
+
+4️⃣ Run the app
+npm start
+
+
+Open:
+👉 http://localhost:3000
+
+📦 Build for Production
+npm run build
+
+
+Creates an optimized production build in the build/ folder.
+
+🌍 Deployment
+
+This app is deployed using Vercel.
+
+Deployment steps:
+
+Connect GitHub repository to Vercel
+
+Set environment variables in Vercel dashboard
+
+Build command: npm run build
+
+Output directory: build
+
+📌 Design Decisions
+
+Predefined + user-added stock list ensures the dashboard is useful immediately while still being interactive
+
+Sorting on the client avoids unnecessary API calls
+
+Mini charts provide quick trend insight without overwhelming the UI
+
+Tailwind CSS enables rapid styling and responsive layouts
+
+🔮 Future Improvements
+
+Pagination or virtualized tables for large datasets
+
+Watchlist persistence using localStorage
+
+Unit tests for data fetching and sorting logic
+
+Dark mode toggle
+
+👩🏽‍💻 Author
+
+Favour Kolade
+Software Engineer | Security-focused Developer
+🔗 LinkedIn: https://www.linkedin.com/in/favour-kolade/
