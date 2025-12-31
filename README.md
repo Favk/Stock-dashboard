@@ -80,7 +80,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### 📦 Build for Production
 `npm run build`
-## Creates an optimized production build in the `build/` directory.
+### Creates an optimized production build in the build/ directory.
 
 ---
 
@@ -90,9 +90,9 @@ This project is deployed using Vercel.
 
 Deployment configuration:
 
-Build Command: npm run build
+Build Command: `npm run build`
 
-Output Directory: build
+Output Directory: `build`
 
 Environment variables are configured in the Vercel dashboard.
 
