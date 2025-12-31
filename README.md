@@ -75,31 +75,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-📈 Stock Dashboard (ValueGlance Coding Assessment)
+#📈 Stock Dashboard (ValueGlance Coding Assessment)
 
 A responsive stock price dashboard built with React that displays real-time stock data, supports searching and sorting, and combines a predefined stock set with user-added symbols.
 
-🔗 Live Demo:
-👉 https://your-vercel-link.vercel.app
+#🔗 Live Demo:
+##👉 [https://your-vercel-link.vercel.app](https://stock-dashboard-gold-six.vercel.app/)
 
-(replace with your actual deployed URL)
-
-🧠 Problem Overview
+#🧠 Problem Overview
 
 This project was built as part of the ValueGlance Coding Assessment.
 The goal was to create a simple, clean stock dashboard that:
 
-Fetches stock price data from a public API
+###Fetches stock price data from a public API
 
-Displays data in a table
+###Displays data in a table
 
-Uses modern frontend practices
+###Uses modern frontend practices
 
-Handles real-world UX concerns (loading, errors, searching, sorting)
+###Handles real-world UX concerns such as loading, errors, searching, sorting
 
-✨ Features
+## Features
 
-📊 Stock Table
+#📊 Stock Table
 
 Symbol
 
@@ -123,10 +121,6 @@ Price
 
 Percentage change
 
-📉 Mini Charts (Sparklines)
-
-Each stock displays a small trend chart for quick visual insight
-
 ⏳ Loading & Error States
 
 Graceful handling of API delays and failures
@@ -145,7 +139,7 @@ Styling: Tailwind CSS
 
 Charts: Chart.js (sparklines)
 
-API: Alpha Vantage / Finnhub (free stock API)
+API: Finnhub (free stock API)
 
 Deployment: Vercel
 
@@ -169,29 +163,14 @@ REACT_APP_API_KEY=your_api_key_here
 4️⃣ Run the app
 npm start
 
-
 Open:
 👉 http://localhost:3000
 
 📦 Build for Production
 npm run build
 
-
 Creates an optimized production build in the build/ folder.
 
-🌍 Deployment
-
-This app is deployed using Vercel.
-
-Deployment steps:
-
-Connect GitHub repository to Vercel
-
-Set environment variables in Vercel dashboard
-
-Build command: npm run build
-
-Output directory: build
 
 📌 Design Decisions
 
