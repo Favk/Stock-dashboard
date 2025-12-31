@@ -31,8 +31,7 @@ function App() {
     return {
       symbol,
       price: quote.c,
-      changePercent: quote.dp,
-      history: historyData.c || [],
+      changePercent: quote.dp
     };
   };
 
