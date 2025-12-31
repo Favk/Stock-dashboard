@@ -133,3 +133,23 @@ The objective was to design and implement a clean, user-friendly stock dashboard
 ```bash
 git clone https://github.com/Favk/Stock-dashboard.git
 cd Stock-dashboard
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Environment Variables
+
+Create a .env file in the project root:
+```bash
+REACT_APP_API_KEY=your_api_key_here
+```
+# ⚠️ API keys are not committed to GitHub.
+
+### 4️⃣ Run the application
+`npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
