@@ -148,7 +148,6 @@ function App() {
                 <th className="p-3 text-left">Symbol</th>
                 <th className="p-3 text-left">Price ($)</th>
                 <th className="p-3 text-left">% Change</th>
-                <th className="p-3 text-left">Trend</th>
               </tr>
             </thead>
             <tbody>
